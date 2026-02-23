@@ -5,7 +5,7 @@ TempViewer is a modern, high-performance image viewer built with WinUI 3, design
 ## 🚀 Key Features
 
 - **HDR Image Support**: Full support for High Dynamic Range (HDR) images with accurate color mapping using PQ EOTF and BT.2020 color space.
-- **Advanced RAW Rendering**: Integrated with **LibRaw** for high-quality RAW image processing, featuring GPU acceleration via **ComputeSharp**.
+- **Advanced RAW Rendering**: Integrated with **LibRaw** for high-quality RAW image processing.
 - **Modern UI**: A sleek, transparent, and responsive interface built using **WinUI 3**.
 - **Flexible Navigation**: Supports multi-tab viewing and a thumbnail strip for quick browsing.
 - **Color Management**: Sophisticated color management pipeline ensuring color accuracy across different display profiles.
