@@ -1,0 +1,49 @@
+# .gitignore for TempViewer
+
+# User-specified exclusion
+ffmpeg/
+LibRaw/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+Generated Files/
+[Bb]in/
+[Oo]bj/
+build.log
+build_detailed.log
+build_full.log
+build_output.txt
+build_test.log
+msbuild.binlog
+xaml_diag.log
+
+# Temporary/Cache files
+*.tmp
+*.log
+hwnd_debug.txt
+mpv_debug.log
+img_9497_analysis.txt
+
+# Native libraries / Large Binaries
+LibRaw-0.22.0-Win64.zip
+ffmpeg-2026-02-15-git-33b215d155-full_build.7z
+*.dll
+*.exe
+*.pdb
+
+# Assets / Media (unless specifically needed)
+*.mp4
+*.7z
+*.zip
+
+# OS files
+Thumbs.db
+Desktop.ini
